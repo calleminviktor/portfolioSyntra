@@ -1,0 +1,45 @@
+// COLORS
+$geel:rgba(251,235,4,1);
+$blauw:rgba(36, 75, 14,1);
+$groen:rgba(0, 187, 174,1);
+.geel{
+  color:$geel;
+};
+.blauw{
+  color:$blauw;
+}
+.groen{
+  color:$groen;
+}
+// FONTS
+/*fonts voor gehele document*/
+@font-face {
+  font-family: robotoli, sans-serif;
+  src: url("../webfonts/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: robotobo, sans-serif;
+  src: url("../webfonts/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: robototh, sans-serif;
+  src: url("../webfonts/Roboto-Thin.ttf");
+}
+@font-face {
+  font-family: robotore, sans-serif;
+  src: url("../webfonts/Roboto-Regular.ttf");
+}
+/*classnames voor fonts */
+
+.robototh{
+  font-family: robototh;
+}
+.robotoli{
+  font-family: robotoli;
+}
+.robotobo{
+  font-family:robotobo;
+}
+.robotore{
+  font-family: robotore;
+}
